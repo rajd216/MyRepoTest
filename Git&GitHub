@@ -1,0 +1,29 @@
+Download & Install git on your system from https://git-scm.com/downloads.
+After installing, set your username & email using these commands:
+  git config --global user.name "your user name"
+  git config --global user.email "your email"
+To confirm changes, use:
+  git config --list
+Then quit using:
+  exit
+
+Next create account on https://github.com
+Go to your profile by clicking at top right hand corner to edit or add additional info.
+Create a new repository by clicking NEW (+) button at upper right corner.
+Enter repository name, choose public or private and choose Initialize with READ ME. Click Create Repository button.
+
+Create a local copy on the Git Bash
+Create a Dir on the local system where you will store the copy of the repository.
+  mkdir ~/your repository (created on the github.com)
+  cd ~/your repository
+
+Initialize it:
+  git init
+
+Then point the local repository to the remote repository (github.com)
+  git remote add origin https://github.com/yourusername/yourrepository.git
+
+
+In order to Fork a another user's repository:
+Clone the repository using:
+  git clone https://github.com/yourusername/repositoryname.git
